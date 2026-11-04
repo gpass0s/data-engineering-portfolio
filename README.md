@@ -14,7 +14,7 @@ Open http://localhost:8000. No build or dependency installation is required. Fon
 
 ## Publish to GitHub Pages
 
-Publish this directory as the `gpass0s/data-engineering-portfolio` repository. Under **Settings → Pages**, select **Deploy from a branch**, then **main /docs** and save. The expected URL is `https://gpass0s.github.io/data-engineering-portfolio/` once GitHub finishes building. Relative asset paths support both project and account Pages sites.
+Publish this directory as the `gpass0s/data-engineering-portfolio` repository. Under **Settings → Pages**, select **Deploy from a branch**, then **main /docs** and save. The expected URL is `https://gpass0s.github.io/data-engineering-portfolio/` once GitHub finishes building. Relative asset paths support both project and account Pages sites. Publishing from **main / (root)** also works: the root entry page redirects to the portfolio in `docs/`.
 
 With authenticated GitHub CLI, from this directory:
 
