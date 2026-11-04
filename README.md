@@ -29,8 +29,8 @@ Do not run repository creation if the repository already exists. Check Pages bui
 
 - Professional case studies use STAR and distinguish personal contribution from team outcomes.
 - Results come from Guilherme’s professional presentation; no numerical improvement claims were invented.
-- Architecture diagrams are simplified HTML sequences, not production diagrams.
-- Personal-project article images are from the supplied presentation. No private source code, customer data, internal infrastructure identifiers, or raw résumé/presentation files are published.
+- Original architecture images from the professional presentation accompany simplified HTML sequences. Full-size links make diagrams readable on smaller screens.
+- Architecture and personal-project article images are from the supplied presentation. No private source code, customer data, internal infrastructure identifiers, or raw résumé/presentation files are published.
 - Airflow certification links to the credential; SnowPro Core COF-C03 is explicitly preparation in progress.
 - `private/` is excluded from Git. It contains the recruiter reply and local review artifacts. Only `docs/` is served by Pages.
 
