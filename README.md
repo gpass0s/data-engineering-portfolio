@@ -27,7 +27,7 @@ Do not run repository creation if the repository already exists. Check Pages bui
 
 ## Content and review
 
-- Professional case studies use STAR and distinguish personal contribution from team outcomes.
+- Professional case studies follow STAR implicitly, using natural editorial headings, and distinguish personal contribution from team outcomes.
 - Results come from Guilherme’s professional presentation; no numerical improvement claims were invented.
 - Original architecture images from the professional presentation accompany simplified HTML sequences. Full-size links make diagrams readable on smaller screens.
 - Architecture and personal-project article images are from the supplied presentation. No private source code, customer data, internal infrastructure identifiers, or raw résumé/presentation files are published.
