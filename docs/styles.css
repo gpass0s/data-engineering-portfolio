@@ -24,3 +24,17 @@
 .challenge-case>.presentation-figure{margin-left:45px;margin-top:35px}
 .challenge-case .case-aside .presentation-figure figcaption{flex-direction:column;align-items:start;gap:10px}
 @media(max-width:700px){.challenge-case>.presentation-figure{margin-left:0}}
+.certifications{border-top:1px solid var(--line)}
+.cert-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.cert-card{display:grid;grid-template-columns:minmax(190px,.9fr) minmax(0,1fr);align-items:center;gap:24px;border:1px solid var(--line);background:#fff;padding:16px;border-radius:4px}
+.cert-preview{display:flex;align-items:center;justify-content:center;min-height:190px;background:#f3f3ef;border:1px solid var(--line)}
+.cert-preview img{display:block;width:100%;height:auto;max-height:220px;object-fit:contain}
+.cert-copy .eyebrow{color:var(--green)}
+.cert-copy h3{font-size:21px;line-height:1.25;letter-spacing:-.025em;margin:9px 0}
+.cert-copy p{font-size:13px;color:var(--muted);line-height:1.55;margin-bottom:16px}
+.cert-links{display:flex;flex-direction:column;align-items:flex-start;gap:8px;font-size:12px}
+.cert-badge{min-height:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:#202d3d;color:#fff;padding:20px}
+.cert-badge span{font-size:27px;font-weight:700;letter-spacing:.04em}
+.cert-badge strong{font-size:22px}.cert-badge small{margin-top:8px;font-size:13px;line-height:1.5}
+@media(max-width:950px){.cert-grid{grid-template-columns:1fr}.cert-card{grid-template-columns:minmax(200px,.8fr) 1fr}}
+@media(max-width:600px){.cert-card{grid-template-columns:1fr;gap:16px}.cert-preview,.cert-badge{min-height:0}.cert-preview img{max-height:none}.cert-badge{min-height:145px}}
